@@ -1,0 +1,714 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 501055800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User at login page",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userAtLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 669326300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User input username with admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 25
+                }
+              ],
+              "location": "com.example.steps.LoginStepDef.userInputUsernameWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1167646200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User input password with admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 25
+                }
+              ],
+              "location": "com.example.steps.LoginStepDef.userInputPasswordWith(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 569289300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click sign in or register button",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userClickSignInOrRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 977720500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User login successfully",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userLoginSuccessfully()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T05:35:36.438Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9547736900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hooks.AndroidHook.befScenario()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate tapping list on three stripes button",
+        "description": "",
+        "id": "list-page;validate-tapping-list-on-three-stripes-button",
+        "after": [
+          {
+            "result": {
+              "duration": 2998800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.serenitybdd.cucumber.actors.StageDirector.endTheAct()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73185300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User tap three stripes button",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userTapThreeStripesButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1073531900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User tap list menu",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userTapListMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 858699500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "list results showing up",
+            "match": {
+              "location": "com.example.steps.ListStepDef.listResultsShowingUp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24164935900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can scroll down all list content",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userCanScrollAllListContent()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@android"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 516545200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User at login page",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userAtLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1289562700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User input username with admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 25
+                }
+              ],
+              "location": "com.example.steps.LoginStepDef.userInputUsernameWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1732041600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User input password with admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 25
+                }
+              ],
+              "location": "com.example.steps.LoginStepDef.userInputPasswordWith(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 542715200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click sign in or register button",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userClickSignInOrRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1030862100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User login successfully",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userLoginSuccessfully()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T05:36:16.101Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9199213300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hooks.AndroidHook.befScenario()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validate taping three stripes button while user at list page",
+        "description": "",
+        "id": "list-page;validate-taping-three-stripes-button-while-user-at-list-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2547300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.serenitybdd.cucumber.actors.StageDirector.endTheAct()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43179300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User at list menu page",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userAtListMenuPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73883700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User tap three stripes button",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userTapThreeStripesButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58685000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Menu banner showed up",
+            "match": {
+              "location": "com.example.steps.ListStepDef.menuBannerShowedUp()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@android"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 501333200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User at login page",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userAtLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1265373400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User input username with admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 25
+                }
+              ],
+              "location": "com.example.steps.LoginStepDef.userInputUsernameWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1754894100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User input password with admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 25
+                }
+              ],
+              "location": "com.example.steps.LoginStepDef.userInputPasswordWith(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 549751800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click sign in or register button",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userClickSignInOrRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087484600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User login successfully",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userLoginSuccessfully()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T05:36:30.611Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9269059400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hooks.AndroidHook.befScenario()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Validate double tap three stripes button while user at list page",
+        "description": "",
+        "id": "list-page;validate-double-tap-three-stripes-button-while-user-at-list-page",
+        "after": [
+          {
+            "result": {
+              "duration": 3490600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.serenitybdd.cucumber.actors.StageDirector.endTheAct()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79184600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User tap three stripes button",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userTapThreeStripesButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 979927900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User tap list menu",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userTapListMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 971181400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User at list menu page",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userAtListMenuPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 914890300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User double tap a content",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userDoubleTapAContent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58336100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User will stay at list page",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userWillStayAtListPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@android"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 521109900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User at login page",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userAtLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1275386400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User input username with admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 25
+                }
+              ],
+              "location": "com.example.steps.LoginStepDef.userInputUsernameWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2202375400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User input password with admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 25
+                }
+              ],
+              "location": "com.example.steps.LoginStepDef.userInputPasswordWith(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 562502300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click sign in or register button",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userClickSignInOrRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1107764800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User login successfully",
+            "match": {
+              "location": "com.example.steps.LoginStepDef.userLoginSuccessfully()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-22T05:36:48.060Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9379037800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hooks.AndroidHook.befScenario()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Validate long tap a content at list page",
+        "description": "",
+        "id": "list-page;validate-long-tap-a-content-at-list-page",
+        "after": [
+          {
+            "result": {
+              "duration": 3572000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "net.serenitybdd.cucumber.actors.StageDirector.endTheAct()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75880500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User tap three stripes button",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userTapThreeStripesButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 991473900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User tap list menu",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userTapListMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 943449100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "list results showing up",
+            "match": {
+              "location": "com.example.steps.ListStepDef.listResultsShowingUp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5664937600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Hold tap a content",
+            "match": {
+              "location": "com.example.steps.ListStepDef.holdTapAContent()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75383100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User will stay at list page",
+            "match": {
+              "location": "com.example.steps.ListStepDef.userWillStayAtListPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@android"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      }
+    ],
+    "name": "List Page",
+    "description": "",
+    "id": "list-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/simpleapp/List.feature",
+    "tags": [
+      {
+        "name": "@android",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

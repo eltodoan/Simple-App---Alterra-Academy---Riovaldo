@@ -1,0 +1,8 @@
+!!com.example.app.properties.PropertiesData
+appiumProperties:
+  platformName: Android
+  deviceName: Pixel 4 XL
+  udid: emulator-5554
+  app: C:\Users\riova\Downloads\sample-apk.apk
+  automationName: UIAutomator2
+
